@@ -6,12 +6,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffe6f2; /* Fundo rosinha */
+    background-color: #fff0f5; /* Fundo rosinha mais claro */
     color: #333; /* Cor das letras */
 }
 
 header {
-    background-color: #ff3399; /* Header em um tom de rosa mais escuro */
+    background-color: #ff66b2; /* Header em um tom de rosa mais claro */
     color: white;
     padding: 20px;
     text-align: center;
@@ -40,7 +40,7 @@ nav ul li a {
 nav ul li ul {
     display: none;
     position: absolute;
-    background-color: #ff66b3; /* Fundo do submenu */
+    background-color: #ff99cc; /* Fundo do submenu em rosa mais claro */
     padding: 0;
     list-style-type: none;
 }
@@ -70,7 +70,7 @@ p {
 }
 
 footer {
-    background-color: #ff3399; /* Footer em um tom de rosa mais escuro */
+    background-color: #ff66b2; /* Footer em um tom de rosa mais claro */
     color: white;
     text-align: center;
     padding: 10px;
