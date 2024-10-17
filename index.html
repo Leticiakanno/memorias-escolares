@@ -46,10 +46,15 @@
             justify-content: space-between; /* Espaço entre os elementos do rodapé */
             align-items: center; /* Alinha verticalmente */
             padding: 10px 0; /* Espaço interno no rodapé */
+            text-align: center; /* Centraliza o texto no rodapé */
         }
         .gif-rodape {
-            width: 50px; /* Ajuste o tamanho do GIF no rodapé */
+            width: 70px; /* Aumenta o tamanho do GIF no rodapé */
             height: auto; /* Mantém a proporção */
+            margin-left: 20px; /* Espaço entre o texto e o GIF */
+        }
+        .footer-text {
+            flex: 1; /* Faz o texto ocupar o espaço central */
         }
     </style>
 </head>
@@ -125,7 +130,7 @@
 
         <!-- Rodapé -->
         <footer>
-            <div>
+            <div class="footer-text">
                 <p>Escola: Padre Cláudio Morelli</p>
                 <p>Nome do Aluno: Letícia Kanno, Nº 21</p>
             </div>
@@ -134,4 +139,3 @@
     </div>
 </body>
 </html>
-
