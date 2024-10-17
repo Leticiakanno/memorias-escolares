@@ -16,14 +16,15 @@
             margin-right: 10px; /* Espaço entre o GIF e o título */
         }
         .galeria {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr); /* 4 imagens por linha */
+            display: flex;
+            flex-direction: column; /* Alinha as imagens uma embaixo da outra */
             gap: 10px; /* Espaço entre as imagens */
             margin-top: 20px; /* Espaço acima da galeria */
         }
         .galeria img {
-            width: 100%; /* Ajusta a largura da imagem para o espaço disponível */
-            height: auto; /* Mantém a proporção */
+            width: 300px; /* Ajusta a largura da imagem */
+            height: 200px; /* Ajusta a altura da imagem */
+            object-fit: cover; /* Mantém a proporção e preenche o espaço */
         }
         .descricao {
             text-align: center; /* Centraliza a descrição abaixo da imagem */
