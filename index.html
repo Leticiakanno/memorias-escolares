@@ -18,11 +18,15 @@
         .titulo-container {
             display: flex;
             align-items: center; /* Alinha verticalmente */
+            justify-content: space-between; /* Espaço entre os elementos */
         }
         .titulo-container img {
             width: 50px; /* Ajuste o tamanho do GIF */
             height: auto; /* Mantém a proporção */
-            margin-right: 10px; /* Espaço entre o GIF e o título */
+        }
+        .titulo {
+            text-align: center; /* Centraliza o título */
+            flex: 1; /* Faz o título ocupar o espaço central */
         }
         .galeria {
             display: flex;
@@ -69,7 +73,10 @@
         <header>
             <div class="titulo-container">
                 <img src="12-02-19-627_512 (3).gif" alt="Descrição do GIF">
-                <h1>Memórias Escolares</h1>
+                <div class="titulo">
+                    <h1>Memórias Escolares</h1>
+                </div>
+                <img src="12-02-19-627_512 (3).gif" alt="Descrição do GIF" class="titulo-gif">
             </div>
             <nav>
                 <ul>
@@ -145,3 +152,4 @@
     </div>
 </body>
 </html>
+
