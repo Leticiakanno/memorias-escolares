@@ -8,49 +8,49 @@
     <style>
         body {
             display: flex;
+            font-family: Arial, sans-serif;
+            margin: 0;
         }
         .conteudo {
-            flex: 1; /* Ocupa o espaço restante */
-            padding: 20px; /* Espaço interno */
+            flex: 1;
+            padding: 20px;
         }
         .titulo-container {
             display: flex;
-            align-items: center; /* Alinha verticalmente */
+            align-items: center;
         }
         .titulo-container img {
-            width: 50px; /* Ajuste o tamanho do GIF */
-            height: auto; /* Mantém a proporção */
-            margin-right: 10px; /* Espaço entre o GIF e o título */
+            width: 50px;
+            height: auto;
+            margin-right: 10px;
         }
         .galeria {
             display: flex;
-            flex-direction: column; /* Alinha as imagens uma embaixo da outra */
-            gap: 10px; /* Espaço entre as imagens */
-            margin-top: 20px; /* Espaço acima da galeria */
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
         }
         .galeria div {
-            text-align: center; /* Centraliza imagem e descrição */
+            text-align: center;
         }
         .galeria img {
-            width: 300px; /* Ajusta a largura da imagem */
-            height: 200px; /* Ajusta a altura da imagem */
-            object-fit: cover; /* Mantém a proporção e preenche o espaço */
+            width: 100%;
+            max-width: 300px;
+            height: auto;
         }
         .descricao {
-            margin-top: 5px; /* Espaço acima da descrição */
+            margin-top: 5px;
         }
         .imagem-lateral {
-            width: 400px; /* Aumenta a largura da imagem lateral */
-            height: auto; /* Mantém a proporção */
-            margin-left: 20px; /* Espaço entre a imagem lateral e o conteúdo */
+            width: 200px; /* Ajuste a largura da imagem lateral aqui */
+            height: auto;
+            margin-left: 20px;
         }
     </style>
 </head>
 <body>
-    <!-- Imagem lateral -->
     <img src="kisspng-kermit-the-frog-miss-piggy-the-muppets-humour-5b20c08b4e4803.7932253615288730993207.png" alt="Imagem lateral" class="imagem-lateral">
 
-    <!-- Conteúdo principal -->
     <div class="conteudo">
         <header>
             <div class="titulo-container">
@@ -88,38 +88,36 @@
                 <h3>Ensino Médio 😱🗣️💩</h3>
                 <p>Então né, parça, o ensino médio foi foda. Me afastei de bastante gente, mas conheci uns mano bem daora também. Em relação aos estudos, no 1º e 2º ano eu era bem empenhada, mas agora no 3º meio que desandei um pouco, mas tamo indo né com o que nós temos 💪💪.</p>
 
-                <!-- Nova seção para fotos -->
                 <h3>Fotos do Meu Memorial Escolar</h3>
                 <div class="galeria">
                     <div>
-                        <img src="cachorro.jpg" alt="Cachorro">
+                        <img src="cachorro.jpg" alt="Cachorros que eu encontrava indo pro colégio">
                         <div class="descricao">Cachorros que eu encontrava indo pro colégio</div>
                     </div>
                     <div>
-                        <img src="caradecu.jpg" alt="Cara de cu">
-                        <div class="descricao">eu ai numa competição de alguma coisa que não me lembro</div>
+                        <img src="caradecu.jpg" alt="Competição que participei">
+                        <div class="descricao">Eu em uma competição de alguma coisa que não me lembro</div>
                     </div>
                     <div>
-                        <img src="facudade.jpg" alt="Faculdade">
-                        <div class="descricao">visita a feira de profissões da positivo</div>
+                        <img src="facudade.jpg" alt="Visita à feira de profissões">
+                        <div class="descricao">Visita à feira de profissões da Positivo</div>
                     </div>
                     <div>
-                        <img src="nerdes.jpg" alt="Nerdes">
+                        <img src="nerdes.jpg" alt="Grupo de amigos nerds">
                         <div class="descricao">Nerdes</div>
                     </div>
                     <div>
-                        <img src="passeio.jpg" alt="Passeio">
+                        <img src="passeio.jpg" alt="Passeio no buraco">
                         <div class="descricao">Passeio no buraco</div>
                     </div>
                     <div>
-                        <img src="prikito.jpg" alt="Prikito">
-                        <div class="descricao">Prikito que achemo</div>
+                        <img src="prikito.jpg" alt="Prikito que encontrei">
+                        <div class="descricao">Prikito que achei</div>
                     </div>
                 </div>
             </section>
         </main>
 
-        <!-- Rodapé -->
         <footer>
             <p>Escola: Padre Cláudio Morelli</p>
             <p>Nome do Aluno: Letícia Kanno, Nº 21</p>
