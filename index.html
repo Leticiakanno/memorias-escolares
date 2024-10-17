@@ -6,6 +6,13 @@
     <title>Memórias Escolares</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        body {
+            display: flex;
+        }
+        .conteudo {
+            flex: 1; /* Ocupa o espaço restante */
+            padding: 20px; /* Espaço interno */
+        }
         .titulo-container {
             display: flex;
             align-items: center; /* Alinha verticalmente */
@@ -32,82 +39,91 @@
         .descricao {
             margin-top: 5px; /* Espaço acima da descrição */
         }
+        .imagem-lateral {
+            width: 200px; /* Ajuste o tamanho da imagem lateral */
+            height: auto; /* Mantém a proporção */
+            margin-left: 20px; /* Espaço entre a imagem lateral e o conteúdo */
+        }
     </style>
 </head>
 <body>
-    <!-- Cabeçalho -->
-    <header>
-        <div class="titulo-container">
-            <img src="12-02-19-627_512 (3).gif" alt="Descrição do GIF">
-            <h1>Memórias Escolares</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Fundamental</a>
-                    <ul>
-                        <li><a href="#">Resumo</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Ensino Médio</a>
-                    <ul>
-                        <li><a href="#">Resumo</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Imagem lateral -->
+    <img src="kisspng-kermit-the-frog-miss-piggy-the-muppets-humour-5b20c08b4e4803.7932253615288730993207.png" alt="Imagem lateral" class="imagem-lateral">
 
     <!-- Conteúdo principal -->
-    <main>
-        <section>
-            <h2>Memórias Escolares</h2>
-            
-            <h3>Fundamental</h3>
-            <p>Bem, sendo bem sincera, as memórias que eu tenho referente às minhas experiências acadêmicas não são das melhores, mas enfim 👍👍 bora lá. Lembro de poucas coisas, mas das que eu lembro foram bem marcantes.</p>
-
-            <h3>Um Resumão do Meu Fundamental 😝😝</h3>
-            <p>Lembro que eu era uma criança bem reservada e na minha, nunca curti muita bagunça. Eu diria que eu era bem chata, mas com o tempo fui desenvolvendo minhas habilidades para socializar com os outros.</p>
-            <p>Nessa época, eu era muito ligada às matérias de humanas, amava história e filosofia, e odiava matemática. Não lembro de experiências que marcaram muito meu fundamental 🐕, mas enfim, esse foi o resumão.</p>
-            
-            <h3>Ensino Médio 😱🗣️💩</h3>
-            <p>Então né, parça, o ensino médio foi foda. Me afastei de bastante gente, mas conheci uns mano bem daora também. Em relação aos estudos, no 1º e 2º ano eu era bem empenhada, mas agora no 3º meio que desandei um pouco, mas tamo indo né com o que nós temos 💪💪.</p>
-
-            <!-- Nova seção para fotos -->
-            <h3>Fotos do Meu Memorial Escolar</h3>
-            <div class="galeria">
-                <div>
-                    <img src="cachorro.jpg" alt="Cachorro">
-                    <div class="descricao">Cachorros que eu encontrava na entrada</div>
-                </div>
-                <div>
-                    <img src="caradecu.jpg" alt="Cara de cu">
-                    <div class="descricao">eu ai num campeonato nao lembro doq era</div>
-                </div>
-                <div>
-                    <img src="facudade.jpg" alt="Faculdade">
-                    <div class="descricao">feira de profissões da universidade positivo que a escola levou ano passado</div>
-                </div>
-                <div>
-                    <img src="nerdes.jpg" alt="Nerdes">
-                    <div class="descricao">Nerdes da sala</div>
-                </div>
-                <div>
-                    <img src="passeio.jpg" alt="Passeio">
-                    <div class="descricao">Passeio num buraco</div>
-                </div>
-                <div>
-                    <img src="prikito.jpg" alt="Prikito">
-                    <div class="descricao">Prikito que achemo</div>
-                </div>
+    <div class="conteudo">
+        <header>
+            <div class="titulo-container">
+                <img src="12-02-19-627_512 (3).gif" alt="Descrição do GIF">
+                <h1>Memórias Escolares</h1>
             </div>
-        </section>
-    </main>
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Fundamental</a>
+                        <ul>
+                            <li><a href="#">Resumo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Ensino Médio</a>
+                        <ul>
+                            <li><a href="#">Resumo</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-    <!-- Rodapé -->
-    <footer>
-        <p>Escola: Padre Cláudio Morelli</p>
-        <p>Nome do Aluno: Letícia Kanno, Nº 21</p>
-    </footer>
+        <main>
+            <section>
+                <h2>Memórias Escolares</h2>
+                
+                <h3>Fundamental</h3>
+                <p>Bem, sendo bem sincera, as memórias que eu tenho referente às minhas experiências acadêmicas não são das melhores, mas enfim 👍👍 bora lá. Lembro de poucas coisas, mas das que eu lembro foram bem marcantes.</p>
+
+                <h3>Um Resumão do Meu Fundamental 😝😝</h3>
+                <p>Lembro que eu era uma criança bem reservada e na minha, nunca curti muita bagunça. Eu diria que eu era bem chata, mas com o tempo fui desenvolvendo minhas habilidades para socializar com os outros.</p>
+                <p>Nessa época, eu era muito ligada às matérias de humanas, amava história e filosofia, e odiava matemática. Não lembro de experiências que marcaram muito meu fundamental 🐕, mas enfim, esse foi o resumão.</p>
+                
+                <h3>Ensino Médio 😱🗣️💩</h3>
+                <p>Então né, parça, o ensino médio foi foda. Me afastei de bastante gente, mas conheci uns mano bem daora também. Em relação aos estudos, no 1º e 2º ano eu era bem empenhada, mas agora no 3º meio que desandei um pouco, mas tamo indo né com o que nós temos 💪💪.</p>
+
+                <!-- Nova seção para fotos -->
+                <h3>Fotos do Meu Memorial Escolar</h3>
+                <div class="galeria">
+                    <div>
+                        <img src="cachorro.jpg" alt="Cachorro">
+                        <div class="descricao">Cachorro</div>
+                    </div>
+                    <div>
+                        <img src="caradecu.jpg" alt="Cara de cu">
+                        <div class="descricao">Cara de cu</div>
+                    </div>
+                    <div>
+                        <img src="facudade.jpg" alt="Faculdade">
+                        <div class="descricao">Faculdade</div>
+                    </div>
+                    <div>
+                        <img src="nerdes.jpg" alt="Nerdes">
+                        <div class="descricao">Nerdes</div>
+                    </div>
+                    <div>
+                        <img src="passeio.jpg" alt="Passeio">
+                        <div class="descricao">Passeio</div>
+                    </div>
+                    <div>
+                        <img src="prikito.jpg" alt="Prikito">
+                        <div class="descricao">Prikito</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Rodapé -->
+        <footer>
+            <p>Escola: Padre Cláudio Morelli</p>
+            <p>Nome do Aluno: Letícia Kanno, Nº 21</p>
+        </footer>
+    </div>
 </body>
 </html>
