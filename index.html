@@ -15,6 +15,20 @@
             height: auto; /* Mantém a proporção */
             margin-right: 10px; /* Espaço entre o GIF e o título */
         }
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* 4 imagens por linha */
+            gap: 10px; /* Espaço entre as imagens */
+            margin-top: 20px; /* Espaço acima da galeria */
+        }
+        .galeria img {
+            width: 100%; /* Ajusta a largura da imagem para o espaço disponível */
+            height: auto; /* Mantém a proporção */
+        }
+        .descricao {
+            text-align: center; /* Centraliza a descrição abaixo da imagem */
+            margin-top: 5px; /* Espaço acima da descrição */
+        }
     </style>
 </head>
 <body>
@@ -55,6 +69,39 @@
             
             <h3>Ensino Médio 😱🗣️💩</h3>
             <p>Então né, parça, o ensino médio foi foda. Me afastei de bastante gente, mas conheci uns mano bem daora também. Em relação aos estudos, no 1º e 2º ano eu era bem empenhada, mas agora no 3º meio que desandei um pouco, mas tamo indo né com o que nós temos 💪💪.</p>
+
+            <!-- Nova seção para fotos -->
+            <h3>Fotos do Meu Memorial Escolar</h3>
+            <div class="galeria">
+                <div>
+                    <img src="cachorro.jpg" alt="Cachorro">
+                    <div class="descricao">Cachorro</div>
+                </div>
+                <div>
+                    <img src="caradecu.jpg" alt="Cara de cu">
+                    <div class="descricao">Cara de cu</div>
+                </div>
+                <div>
+                    <img src="casal.jpg" alt="Casal">
+                    <div class="descricao">Casal</div>
+                </div>
+                <div>
+                    <img src="facudade.jpg" alt="Faculdade">
+                    <div class="descricao">Faculdade</div>
+                </div>
+                <div>
+                    <img src="nerdes.jpg" alt="Nerdes">
+                    <div class="descricao">Nerdes</div>
+                </div>
+                <div>
+                    <img src="passeio.jpg" alt="Passeio">
+                    <div class="descricao">Passeio</div>
+                </div>
+                <div>
+                    <img src="prikito.jpg" alt="Prikito">
+                    <div class="descricao">Prikito</div>
+                </div>
+            </div>
         </section>
     </main>
 
